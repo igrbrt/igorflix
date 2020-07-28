@@ -1,12 +1,12 @@
 import React from 'react';
-import Menu from './componentes/Menu';
-import BannerMain from './componentes/BannerMain';
-import Carousel from './componentes/Carousel';
-import Footer from './componentes/Footer';
-import dadosIniciais from './data/dados_iniciais.json';
+import Menu from '../../componentes/Menu';
+import BannerMain from '../../componentes/BannerMain';
+import Carousel from '../../componentes/Carousel';
+import Footer from '../../componentes/Footer';
+import dadosIniciais from '../../data/dados_iniciais.json';
 //import { StyleSheet, Text, View } from 'react-native';
 
-export default function App() {
+export default function Home() {
   return (
     <div>
       <div style={{background: "#141414"}}>
@@ -47,3 +47,5 @@ export default function App() {
     </div>
   );
 }
+
+//export default Home;
